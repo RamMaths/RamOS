@@ -3,12 +3,6 @@ name = "ram_os"
 version = "0.1.0"
 edition = "2018"
 authors = ["Ramses Mata<ramses.hdz30@gmail.com>"]
-license = "MIT"
 
 [dependencies]
-
-[profile.dev]
-panic = "abort"
-
-[profile.release]
-panic = "abort"
+bootloader = "0.9"
